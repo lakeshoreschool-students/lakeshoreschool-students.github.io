@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<body style="background: url('Images/Homepage\ Background.jpg') no-repeat center center fixed ; background-size: cover; z-index: -1;">
+    <div class="TITLE"><title> Lakeshore School Students</title></div>
+    <link rel="icon" href="Images/Logo.png" />
+    <link rel="stylesheet" href="stylesheet.css">
+    <a class="homepage_shortcut" href="index.html">
+      <img src="Images/Logo.png" width="10%" height="auto">
+    </a>
+
+    <div class="navbar">
+    <a href="" target="_blank">How to reduce anxiety</a>
+    <a href="" target="_blank">Information about your school</a>
+    </div>
+    <h1 style="margin-top: 5%;"> Welcome to Lakeshore School Student! </h1>
+   
+    <h2 style="margin: 10%;"> </h2>
+    <script type="text/javascript">    
+      var percent = document.getElementById("progressbar");
+      var percent = document.getElementById("percent");
+
+      var totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+        var progress = (window.pageYOffset / totalHeight) * 100;
+        progressbar.style.height = progress + "%";
+        percent.innerHTML =  Math.round(progress) + "%"
+      }
+  </script>
+  </body>
+
+</html>
+
