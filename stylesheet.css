@@ -250,69 +250,10 @@ body {
     color: white;
   }
   
-  .HTMLcode_parts img {
-    float: right;
-    margin-left: 2%;
-    z-index: 0;
-  }
-  
-  .HTML_hierarchy img {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-  }
-  
-  .Getting_Started a {
-    font-size: 24px;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-  }
-  
-  .Getting_Started img {
-    float: right;
-    margin-left: 5%;
-    right: 0;
-  }
-  
-  code {
-    color: white;
-    text-align: left;
-    font-size: 24px;
-    font-weight: normal;
-    border-radius: 5px;
-    background-color: grey;
-    text-decoration: none;
-  }
-  
-  .Headings img {
-    float: right;
-    margin-left: 5%;
-    right: 0;
-    background-color: white;
-  }
   
   p a {
     font-size: 24px;
     color: greenyellow;
-    font-family: 'Roboto Mono', monospace;
-    text-align: left;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    text-decoration: none;
-  }
-  
-  .light-mode p a {
-    font-size: 24px;
-    color: white;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     background-color: Transparent;
@@ -333,7 +274,7 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    z-index: 11;
+    z-index: 2;
     float: left;
     border-radius: 2px;
   }
