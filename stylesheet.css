@@ -127,9 +127,11 @@ body {
   
   .navbar .dropdown-content a:hover {
     background-color: #4169E1;
+    color: white;
   }
   .navbar a:hover {
     background-color: #4169E1;
+    color: white;
   }
   
   .dropdown {
@@ -151,7 +153,6 @@ body {
   }
    .dropdown:hover .dropbtn {
     background-color: #4169E1;
-    border-radius: 20px;
     color: white;
   }
   
