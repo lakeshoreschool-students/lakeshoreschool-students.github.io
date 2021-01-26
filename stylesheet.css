@@ -44,7 +44,8 @@ body {
   }
   
   p {
-    color: white;
+    color: black;
+    width: 100%;
     text-align: justify;
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
@@ -465,4 +466,5 @@ body {
   a {
     text-decoration: underline;
   }
+  
   
