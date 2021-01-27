@@ -138,10 +138,12 @@ body {
   .dropdown {
     float: left;
     overflow: hidden;
+    background-color: transparent;
     border-radius: 20px;
   }
   
   .dropdown .dropbtn {
+    background-color:transparent;
     font-size: 16px;
     border: none;
     outline: none;
@@ -160,80 +162,14 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: Transparent;
+    background-color: transparent;
     min-width: 160px;
     z-index: 10;
     border-radius: 20px;
   }
   
   
-  .light-mode .dropdown-content {
-      background-color: #ffdaaa;
-      color: black; 
-      display: none;
-      position: absolute;
-      background-color: Transparent;
-      min-width: 160px;
-      z-index: 10;
-      border-radius: 20px;
-  }
   
-
-  
-  .light-mode .navbar  a:hover, .dropdown:hover .dropbtn {
-    background-color: #4169E1;
-    border-radius: 20px;
-  }
-  
-  .Light-mode:hover{
-    background-color:#e29f4b;
-  }
-  
-  .light-mode .Light-mode:hover{
-    background-color: #ffdaaa;
-  }
-  
-  .light-mode .dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #d5b68e;
-    color: black;
-    border-radius: 20px;
-  }
-  
-  .Light-mode {
-    font-size: 16px;
-    border: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: black;
-    font-family: 'Roboto Mono', monospace;
-    margin: 0;
-    text-align: center;
-    border-radius: 20px;
-  }
-  
-  .Light-mode a {
-    padding: 0.1px;
-  }
-  
-  .light-mode .navbar a {
-    background-color: #d5b68e;
-    color: black;
-  }
-  
-  .light-mode .navbar button {
-    background-color: #d5b68e;
-    color: black;
-  }
-  
-  .light-mode .navbar {
-    background-color: transparent;
-    color: black;
-  }
-  
-  .light-mode .Light-mode:hover {
-    background-color: #e29f4b;
-  }
   
   .dropdown-content a {
     float: none;
@@ -252,7 +188,7 @@ body {
   
   .dropdown:hover .dropdown-content {
     display: block;
-    background-color: black;
+    background-color:transparent;
     color: white;
   }
   
