@@ -102,7 +102,7 @@ body {
   }
   
   .navbar {
-    background-color: Transparent;
+    background-color: transparent;
     width: 79%;
     height: 5.6%;
     padding-right: 10%;
@@ -138,7 +138,7 @@ body {
   .dropdown {
     float: left;
     overflow: hidden;
-    background-color: transparent;
+    background-color: Transparent;
     border-radius: 20px;
   }
   
@@ -189,7 +189,6 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
     background-color:transparent;
-    color: white;
   }
   
   
@@ -230,7 +229,6 @@ body {
   
   table {
     font-size: 24px;
-    color: black;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     width: 100%;
@@ -240,6 +238,11 @@ body {
     background: transparent;
     z-index: 1;
     margin-bottom: 5%;
+  }
+  
+  table a:hover {
+    color: blue;
+    font-weight: bold;
   }
   
   input {
@@ -258,77 +261,7 @@ body {
     height: auto;
   }
   
-  .light-mode {
-    background-color: #b69b79;
   
-  }
-  
-  .light-mode code {
-    background-color:#7c6952;
-  }
-  
-  .light-mode p {
-    color: black;
-  }
-  
-  .light-mode h1 {
-    color: black;
-  }
-  
-  .light-mode h2 {
-    color: black;
-  }
-  
-  .light-mode h3 {
-    color: black;
-  }
-  
-  .light-mode h4 {
-    color: black;
-  }
-  
-  .light-mode h5 {
-    color: black;
-  }
-  
-  .light-mode h6 {
-    color: black;
-  }
-  
-  .light-mode tbody {
-    color: black;
-  }
-  .light-mode thead {
-    color: black;
-  }
-  
-  .light-mode table {
-    font-size: 24px;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    width: 100%;
-    background: black;
-    padding: 3%;
-    border-collapse: collapse;
-    background: rgb(182,155,121);
-    border: black solid;
-    background: linear-gradient(180deg, rgba(182,155,121,1) 6%, rgba(213,182,142,1) 36%, rgba(238,205,161,1) 62%, rgba(255,218,170,1) 72%);
-    z-index: 1;
-    margin-bottom: 5%;
-  }
-  
-  .light-mode ol {
-    color: black;
-  }
-  
-  .light-mode ul {
-    color: black;
-  }
-  
-  .light-mode li {
-    color: black;
-  }
   
   ::-webkit-scrollbar {
     width: 0;
@@ -402,7 +335,6 @@ body {
     text-decoration: underline;
   }
   
-  table a:hover {
-    color: blue;
-    font-weight: bolder;
+  table a {
+    color: black;
   }
