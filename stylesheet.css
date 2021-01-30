@@ -235,7 +235,7 @@ body {
     text-align: center;
     width: 100%;
     padding: 3%;
-    border: rgb(85, 84, 84) solid;
+    border: black solid;
     border-collapse: collapse;
     background: transparent;
     z-index: 1;
@@ -402,4 +402,7 @@ body {
     text-decoration: underline;
   }
   
-  
+  table a:hover {
+    color: blue;
+    font-weight: bolder;
+  }
